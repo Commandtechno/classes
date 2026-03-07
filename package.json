@@ -1,5 +1,10 @@
 {
   "name": "cu-classes",
   "private": true,
-  "workspaces": ["packages/*"]
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.2.1"
+  }
 }
