@@ -1,4 +1,4 @@
-import { buildings } from "./buildingData";
+import { buildings } from "./buildingData.js";
 
 const classLocationCache = new Map<string, string | null>();
 
