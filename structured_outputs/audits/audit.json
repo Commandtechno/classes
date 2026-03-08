@@ -1,25 +1,23 @@
 {
   "student": {
-    "name": "Fabian, Alex"
+    "name": "Asher, Akhil"
   },
   "program": {
-    "prepared_date": "03/07/26 - 05:07 PM 111466854",
+    "prepared_date": "03/07/26 - 01:36 PM 111780711",
     "catalog_year": "FA2025",
-    "requested_program": "ASBA---MATH",
-    "degree_name": "Bachelor of Arts in Mathematics",
-    "college": "NO College of Arts and Sciences",
+    "requested_program": "ENBA---CSEN",
+    "degree_name": "Bachelor of Arts in Computer Science",
+    "college": "College of Engineering and Applied Science",
     "program_codes": [
       "CUBLD",
       "ENGRU",
-      "CSEN-BSCS",
-      "MATH-MIN",
-      "ECEN-BSEC"
+      "CSEN-BA"
     ],
     "admission_term": "FA2025"
   },
   "overall": {
     "all_requirements_met": false,
-    "earned_hours": 86.0,
+    "earned_hours": 22.0,
     "in_progress_hours": 18.0
   },
   "requirements": [
@@ -32,1111 +30,680 @@
       "notes": []
     },
     {
-      "name": "Overall Credit Hour and GPA Requirements",
+      "name": "Overall Credit Hour Requirement",
       "status": null,
       "min_grade": null,
       "sub_requirements": [
         {
-          "description": "Complete at least 45 hours on the Boulder campus.",
+          "description": "SELECT FROM: ENES1010 ARSC1080,1150 CLAS1020 EBIO1940",
           "status": null,
           "courses": [],
-          "hours_needed": 6.0,
-          "hours_in_progress": 18.0
+          "hours_needed": null,
+          "hours_in_progress": null
         },
         {
-          "description": "Complete at least 45 credits of upper-division courses.",
+          "description": "SELECT FROM: ENES3100 ENLP3100 ARSC3100,",
           "status": null,
           "courses": [
-            {
-              "term": "SP26",
-              "semester": "SP",
-              "year": 2026,
-              "course_code": "CSCI3104",
-              "credits": 4.0,
-              "grade": null,
-              "title": "Algorithms",
-              "in_progress": true,
-              "transfer": false
-            },
-            {
-              "term": "SP26",
-              "semester": "SP",
-              "year": 2026,
-              "course_code": "CSCI3308",
-              "credits": 3.0,
-              "grade": null,
-              "title": "Software Dev Methods and Tools",
-              "in_progress": true,
-              "transfer": false
-            },
-            {
-              "term": "SP26",
-              "semester": "SP",
-              "year": 2026,
-              "course_code": "MATH3430",
-              "credits": 3.0,
-              "grade": null,
-              "title": "Ordinary Differential Equation",
-              "in_progress": true,
-              "transfer": false
-            }
-          ],
-          "hours_needed": 32.0,
-          "hours_in_progress": 10.0
-        },
-        {
-          "description": "Complete at least 30 upper-division hours in Arts",
-          "status": null,
-          "courses": [
-            {
-              "term": "SP26",
-              "semester": "SP",
-              "year": 2026,
-              "course_code": "CSCI3104",
-              "credits": 4.0,
-              "grade": null,
-              "title": "Algorithms",
-              "in_progress": true,
-              "transfer": false
-            },
-            {
-              "term": "SP26",
-              "semester": "SP",
-              "year": 2026,
-              "course_code": "MATH3430",
-              "credits": 3.0,
-              "grade": null,
-              "title": "Ordinary Differential Equation",
-              "in_progress": true,
-              "transfer": false
-            }
-          ],
-          "hours_needed": 23.0,
-          "hours_in_progress": 7.0,
-          "gpa": 4.0
-        },
-        {
-          "description": "Complete at least 90 credit hours in A&S coursework.",
-          "status": null,
-          "courses": [
-            {
-              "term": "SP24",
-              "semester": "SP",
-              "year": 2024,
-              "course_code": "MATH1300",
-              "credits": 5.0,
-              "grade": "TC",
-              "title": "Calculus 1",
-              "in_progress": false,
-              "transfer": true
-            },
-            {
-              "term": "SP24",
-              "semester": "SP",
-              "year": 2024,
-              "course_code": "WRTG1150",
-              "credits": 3.0,
-              "grade": "TC",
-              "title": "1st Yr Writing/Rhetoric",
-              "in_progress": false,
-              "transfer": true
-            },
-            {
-              "term": "SP24",
-              "semester": "SP",
-              "year": 2024,
-              "course_code": "HIST1025",
-              "credits": 3.0,
-              "grade": "TC",
-              "title": "American History since 1865",
-              "in_progress": false,
-              "transfer": true
-            },
             {
               "term": "FA25",
               "semester": "FA",
               "year": 2025,
+              "course_code": "PHIL1100",
+              "credits": 3.0,
+              "grade": "A",
+              "title": "Ethics",
+              "in_progress": false,
+              "transfer": false
+            },
+            {
+              "term": "SP26",
+              "semester": "SP",
+              "year": 2026,
               "course_code": "PHIL1440",
               "credits": 3.0,
-              "grade": "A",
+              "grade": null,
               "title": "Critical Thinking",
-              "in_progress": false,
+              "in_progress": true,
               "transfer": false
             },
             {
-              "term": "SP25",
-              "semester": "SP",
+              "term": "FA25",
+              "semester": "FA",
               "year": 2025,
-              "course_code": "PSCI1101",
+              "course_code": "ATOC1060",
               "credits": 3.0,
-              "grade": "TC",
-              "title": "Intro to American Politics",
-              "in_progress": false,
-              "transfer": true
-            },
-            {
-              "term": "SP25",
-              "semester": "SP",
-              "year": 2025,
-              "course_code": "CHEM1113",
-              "credits": 4.0,
-              "grade": "TC",
-              "title": "General Chemistry 1",
-              "in_progress": false,
-              "transfer": true
-            },
-            {
-              "term": "SP25",
-              "semester": "SP",
-              "year": 2025,
-              "course_code": "PHYS1110",
-              "credits": 4.0,
-              "grade": "TC",
-              "title": "General Physics 1",
-              "in_progress": false,
-              "transfer": true
-            },
-            {
-              "term": "SP25",
-              "semester": "SP",
-              "year": 2025,
-              "course_code": "PHYS1120",
-              "credits": 4.0,
-              "grade": "TC",
-              "title": "General Physics 2",
-              "in_progress": false,
-              "transfer": true
-            },
-            {
-              "term": "SP25",
-              "semester": "SP",
-              "year": 2025,
-              "course_code": "CHEM1114",
-              "credits": 1.0,
-              "grade": "TC",
-              "title": "Laboratory Gen Chem 1",
-              "in_progress": false,
-              "transfer": true
-            }
-          ],
-          "hours_needed": null,
-          "hours_in_progress": 11.0,
-          "hours_added": 9.0
-        },
-        {
-          "description": "Complete one of the Calculus I courses:",
-          "status": null,
-          "courses": [
-            {
-              "term": "SP24",
-              "semester": "SP",
-              "year": 2024,
-              "course_code": "MATH1300",
-              "credits": 5.0,
-              "grade": "TC",
-              "title": "Calculus 1",
-              "in_progress": false,
-              "transfer": true
-            }
-          ],
-          "hours_needed": null,
-          "hours_in_progress": null
-        },
-        {
-          "description": "Complete one of the Calculus II courses:",
-          "status": null,
-          "courses": [
-            {
-              "term": "SP24",
-              "semester": "SP",
-              "year": 2024,
-              "course_code": "MATH2300",
-              "credits": 5.0,
-              "grade": "TC",
-              "title": "Calculus 2",
-              "in_progress": false,
-              "transfer": true
-            }
-          ],
-          "hours_needed": null,
-          "hours_in_progress": null
-        },
-        {
-          "description": "Complete one of the Calculus III courses:",
-          "status": null,
-          "courses": [
-            {
-              "term": "SU25",
-              "semester": "SU",
-              "year": 2025,
-              "course_code": "MATH2400",
-              "credits": 4.0,
               "grade": "A",
-              "title": "Calculus 3",
+              "title": "Our Changing Environment",
               "in_progress": false,
+              "transfer": false
+            },
+            {
+              "term": "SP26",
+              "semester": "SP",
+              "year": 2026,
+              "course_code": "PSYC1001",
+              "credits": 3.0,
+              "grade": null,
+              "title": "General Psychology",
+              "in_progress": true,
               "transfer": false
             }
           ],
           "hours_needed": null,
-          "hours_in_progress": null
+          "hours_in_progress": 3.0,
+          "hours_added": 3.0
+        }
+      ],
+      "courses": [
+        {
+          "term": "FA25",
+          "semester": "FA",
+          "year": 2025,
+          "course_code": "ATOC1060",
+          "credits": 3.0,
+          "grade": "A",
+          "title": "Our Changing Environment",
+          "in_progress": false,
+          "transfer": false
         },
         {
-          "description": "Complete MATH2001 or MATH2002:",
+          "term": "FA25",
+          "semester": "FA",
+          "year": 2025,
+          "course_code": "COEN1500",
+          "credits": 1.0,
+          "grade": "A",
+          "title": "CEAS FYS",
+          "in_progress": false,
+          "transfer": false
+        },
+        {
+          "term": "FA22",
+          "semester": "FA",
+          "year": 2022,
+          "course_code": "CSCI1200",
+          "credits": 3.0,
+          "grade": "TA",
+          "title": "Intro Computational Thinking",
+          "in_progress": false,
+          "transfer": true,
+          "transfer_equivalent": "CIS130"
+        },
+        {
+          "term": "FA25",
+          "semester": "FA",
+          "year": 2025,
+          "course_code": "CSCI1300",
+          "credits": 4.0,
+          "grade": "A",
+          "title": "CS 1: Starting Computing",
+          "in_progress": false,
+          "transfer": false
+        },
+        {
+          "term": "SP26",
+          "semester": "SP",
+          "year": 2026,
+          "course_code": "CSCI2270",
+          "credits": 4.0,
+          "grade": null,
+          "title": "Comp Sci 2: Data Struct",
+          "in_progress": true,
+          "transfer": false
+        },
+        {
+          "term": "SP26",
+          "semester": "SP",
+          "year": 2026,
+          "course_code": "CSCI2824",
+          "credits": 3.0,
+          "grade": null,
+          "title": "Discrete Structures",
+          "in_progress": true,
+          "transfer": false
+        },
+        {
+          "term": "FA25",
+          "semester": "FA",
+          "year": 2025,
+          "course_code": "MATH1300",
+          "credits": 5.0,
+          "grade": "A-",
+          "title": "Calculus 1",
+          "in_progress": false,
+          "transfer": false
+        },
+        {
+          "term": "SP26",
+          "semester": "SP",
+          "year": 2026,
+          "course_code": "MATH2300",
+          "credits": 5.0,
+          "grade": null,
+          "title": "Calculus 2",
+          "in_progress": true,
+          "transfer": false
+        },
+        {
+          "term": "FA22",
+          "semester": "FA",
+          "year": 2022,
+          "course_code": "MATH2510",
+          "credits": 3.0,
+          "grade": "TA",
+          "title": "Introduction/Statistics",
+          "in_progress": false,
+          "transfer": true,
+          "transfer_equivalent": "MAT212"
+        },
+        {
+          "term": "FA25",
+          "semester": "FA",
+          "year": 2025,
+          "course_code": "PHIL1100",
+          "credits": 3.0,
+          "grade": "A",
+          "title": "Ethics",
+          "in_progress": false,
+          "transfer": false
+        },
+        {
+          "term": "SP26",
+          "semester": "SP",
+          "year": 2026,
+          "course_code": "PHIL1440",
+          "credits": 3.0,
+          "grade": null,
+          "title": "Critical Thinking",
+          "in_progress": true,
+          "transfer": false
+        },
+        {
+          "term": "SP26",
+          "semester": "SP",
+          "year": 2026,
+          "course_code": "PSYC1001",
+          "credits": 3.0,
+          "grade": null,
+          "title": "General Psychology",
+          "in_progress": true,
+          "transfer": false
+        },
+        {
+          "term": "SP26",
+          "semester": "SP",
+          "year": 2026,
+          "course_code": "PSYC1001",
+          "credits": 3.0,
+          "grade": null,
+          "title": "General Psychology",
+          "in_progress": true,
+          "transfer": false
+        },
+        {
+          "term": "SP26",
+          "semester": "SP",
+          "year": 2026,
+          "course_code": "PHIL1440",
+          "credits": 3.0,
+          "grade": null,
+          "title": "Critical Thinking",
+          "in_progress": true,
+          "transfer": false
+        },
+        {
+          "term": "SP26",
+          "semester": "SP",
+          "year": 2026,
+          "course_code": "MATH2300",
+          "credits": 5.0,
+          "grade": null,
+          "title": "Calculus 2",
+          "in_progress": true,
+          "transfer": false
+        },
+        {
+          "term": "SP26",
+          "semester": "SP",
+          "year": 2026,
+          "course_code": "CSCI2824",
+          "credits": 3.0,
+          "grade": null,
+          "title": "Discrete Structures",
+          "in_progress": true,
+          "transfer": false
+        },
+        {
+          "term": "SP26",
+          "semester": "SP",
+          "year": 2026,
+          "course_code": "CSCI2270",
+          "credits": 4.0,
+          "grade": null,
+          "title": "Comp Sci 2: Data Struct",
+          "in_progress": true,
+          "transfer": false
+        },
+        {
+          "term": "FA25",
+          "semester": "FA",
+          "year": 2025,
+          "course_code": "PHIL1100",
+          "credits": 3.0,
+          "grade": "A",
+          "title": "Ethics",
+          "in_progress": false,
+          "transfer": false
+        },
+        {
+          "term": "FA25",
+          "semester": "FA",
+          "year": 2025,
+          "course_code": "MATH1300",
+          "credits": 5.0,
+          "grade": "A-",
+          "title": "Calculus 1",
+          "in_progress": false,
+          "transfer": false
+        },
+        {
+          "term": "FA25",
+          "semester": "FA",
+          "year": 2025,
+          "course_code": "CSCI1300",
+          "credits": 4.0,
+          "grade": "A",
+          "title": "CS 1: Starting Computing",
+          "in_progress": false,
+          "transfer": false
+        },
+        {
+          "term": "FA25",
+          "semester": "FA",
+          "year": 2025,
+          "course_code": "COEN1500",
+          "credits": 1.0,
+          "grade": "A",
+          "title": "CEAS FYS",
+          "in_progress": false,
+          "transfer": false
+        },
+        {
+          "term": "FA25",
+          "semester": "FA",
+          "year": 2025,
+          "course_code": "ATOC1060",
+          "credits": 3.0,
+          "grade": "A",
+          "title": "Our Changing Environment",
+          "in_progress": false,
+          "transfer": false
+        },
+        {
+          "term": "SP26",
+          "semester": "SP",
+          "year": 2026,
+          "course_code": "CSCI2270",
+          "credits": 4.0,
+          "grade": null,
+          "title": "Comp Sci 2: Data Struct",
+          "in_progress": true,
+          "transfer": false
+        },
+        {
+          "term": "SP26",
+          "semester": "SP",
+          "year": 2026,
+          "course_code": "CSCI2824",
+          "credits": 3.0,
+          "grade": null,
+          "title": "Discrete Structures",
+          "in_progress": true,
+          "transfer": false
+        },
+        {
+          "term": "SP26",
+          "semester": "SP",
+          "year": 2026,
+          "course_code": "MATH2300",
+          "credits": 5.0,
+          "grade": null,
+          "title": "Calculus 2",
+          "in_progress": true,
+          "transfer": false
+        },
+        {
+          "term": "SP26",
+          "semester": "SP",
+          "year": 2026,
+          "course_code": "PHIL1440",
+          "credits": 3.0,
+          "grade": null,
+          "title": "Critical Thinking",
+          "in_progress": true,
+          "transfer": false
+        },
+        {
+          "term": "SP26",
+          "semester": "SP",
+          "year": 2026,
+          "course_code": "PSYC1001",
+          "credits": 3.0,
+          "grade": null,
+          "title": "General Psychology",
+          "in_progress": true,
+          "transfer": false
+        }
+      ],
+      "notes": [],
+      "hours_added": 22.0,
+      "hours_in_progress": 18.0,
+      "gpa": 3.906
+    },
+    {
+      "name": "General Education Diversity Requirement",
+      "status": null,
+      "min_grade": "a D-",
+      "sub_requirements": [
+        {
+          "description": "Complete CSCI1300:",
           "status": null,
           "courses": [
             {
               "term": "FA25",
               "semester": "FA",
               "year": 2025,
-              "course_code": "MATH2001",
-              "credits": 3.0,
-              "grade": "A",
-              "title": "Intro to Discrete Mathematics",
-              "in_progress": false,
-              "transfer": false
-            }
-          ],
-          "hours_needed": null,
-          "hours_in_progress": null
-        },
-        {
-          "description": "Complete Analysis I:",
-          "status": null,
-          "courses": [],
-          "hours_needed": null,
-          "hours_in_progress": null
-        },
-        {
-          "description": "SELECT FROM: MATH3001",
-          "status": null,
-          "courses": [],
-          "hours_needed": null,
-          "hours_in_progress": null
-        },
-        {
-          "description": "Complete Intro to Linear Algebra:",
-          "status": null,
-          "courses": [],
-          "hours_needed": null,
-          "hours_in_progress": null
-        },
-        {
-          "description": "SELECT FROM: MATH2135",
-          "status": null,
-          "courses": [],
-          "hours_needed": null,
-          "hours_in_progress": null
-        },
-        {
-          "description": "Complete Abstract Algebra I:",
-          "status": null,
-          "courses": [],
-          "hours_needed": null,
-          "hours_in_progress": null
-        },
-        {
-          "description": "SELECT FROM: MATH3140",
-          "status": null,
-          "courses": [],
-          "hours_needed": null,
-          "hours_in_progress": null
-        },
-        {
-          "description": "Complete Analysis II or Abstract Algebra II:",
-          "status": null,
-          "courses": [],
-          "hours_needed": null,
-          "hours_in_progress": null
-        },
-        {
-          "description": "SELECT FROM: MATH4001,4140",
-          "status": null,
-          "courses": [],
-          "hours_needed": null,
-          "hours_in_progress": null
-        },
-        {
-          "description": "Complete one 4000-level MATH or cross-listed APPM",
-          "status": null,
-          "courses": [],
-          "hours_needed": null,
-          "hours_in_progress": null
-        },
-        {
-          "description": "Complete two additional upper-division MATH or",
-          "status": null,
-          "courses": [
-            {
-              "term": "SP26",
-              "semester": "SP",
-              "year": 2026,
-              "course_code": "MATH3430",
-              "credits": 3.0,
-              "grade": null,
-              "title": "Ordinary Differential Equation",
-              "in_progress": true,
-              "transfer": false
-            }
-          ],
-          "hours_needed": null,
-          "hours_in_progress": null
-        },
-        {
-          "description": "Complete Intro to Probability Theory:",
-          "status": null,
-          "courses": [],
-          "hours_needed": null,
-          "hours_in_progress": null
-        },
-        {
-          "description": "SELECT FROM: MATH4510",
-          "status": null,
-          "courses": [],
-          "hours_needed": null,
-          "hours_in_progress": null
-        },
-        {
-          "description": "Complete Ordinary Differential Equations:",
-          "status": null,
-          "courses": [
-            {
-              "term": "SP26",
-              "semester": "SP",
-              "year": 2026,
-              "course_code": "MATH3430",
-              "credits": 3.0,
-              "grade": null,
-              "title": "Ordinary Differential Equation",
-              "in_progress": true,
-              "transfer": false
-            }
-          ],
-          "hours_needed": null,
-          "hours_in_progress": null
-        },
-        {
-          "description": "Complete Partial Differential Equations or Mathematical",
-          "status": null,
-          "courses": [],
-          "hours_needed": null,
-          "hours_in_progress": null
-        },
-        {
-          "description": "SELECT FROM: MATH4470,4520",
-          "status": null,
-          "courses": [],
-          "hours_needed": null,
-          "hours_in_progress": null
-        },
-        {
-          "description": "Complete two additional upper-division MATH or",
-          "status": null,
-          "courses": [],
-          "hours_needed": null,
-          "hours_in_progress": null
-        },
-        {
-          "description": "Complete Functions and Modeling:",
-          "status": null,
-          "courses": [],
-          "hours_needed": null,
-          "hours_in_progress": null
-        },
-        {
-          "description": "SELECT FROM: MATH3120",
-          "status": null,
-          "courses": [],
-          "hours_needed": null,
-          "hours_in_progress": null
-        },
-        {
-          "description": "Complete Probability and Statistics:",
-          "status": null,
-          "courses": [],
-          "hours_needed": null,
-          "hours_in_progress": null
-        },
-        {
-          "description": "SELECT FROM: MATH3510",
-          "status": null,
-          "courses": [],
-          "hours_needed": null,
-          "hours_in_progress": null
-        },
-        {
-          "description": "Complete Euclidean and Non-Euclidean Geometry I:",
-          "status": null,
-          "courses": [],
-          "hours_needed": null,
-          "hours_in_progress": null
-        },
-        {
-          "description": "SELECT FROM: MATH3210",
-          "status": null,
-          "courses": [],
-          "hours_needed": null,
-          "hours_in_progress": null
-        },
-        {
-          "description": "Complete History of Mathematical Ideas:",
-          "status": null,
-          "courses": [],
-          "hours_needed": null,
-          "hours_in_progress": null
-        },
-        {
-          "description": "SELECT FROM: MATH4820",
-          "status": null,
-          "courses": [],
-          "hours_needed": null,
-          "hours_in_progress": null
-        },
-        {
-          "description": "Complete Introduction to Theory of Numbers or Abstract",
-          "status": null,
-          "courses": [],
-          "hours_needed": null,
-          "hours_in_progress": null
-        },
-        {
-          "description": "SELECT FROM: MATH3110,3140",
-          "status": null,
-          "courses": [],
-          "hours_needed": null,
-          "hours_in_progress": null
-        },
-        {
-          "description": "Complete Computer Science 1: Programming:",
-          "status": null,
-          "courses": [
-            {
-              "term": "SP24",
-              "semester": "SP",
-              "year": 2024,
               "course_code": "CSCI1300",
               "credits": 4.0,
-              "grade": "TC",
-              "title": ">R CS 1: Starting Computing",
+              "grade": "A",
+              "title": "CS 1: Starting Computing",
               "in_progress": false,
-              "transfer": true
+              "transfer": false
             }
           ],
           "hours_needed": null,
           "hours_in_progress": null
         },
         {
-          "description": "Complete Computer Science 2: Data Structures:",
+          "description": "Complete CSCI2270:",
+          "status": null,
+          "courses": [
+            {
+              "term": "SP26",
+              "semester": "SP",
+              "year": 2026,
+              "course_code": "CSCI2270",
+              "credits": 4.0,
+              "grade": null,
+              "title": "Comp Sci 2: Data Struct",
+              "in_progress": true,
+              "transfer": false
+            }
+          ],
+          "hours_needed": null,
+          "hours_in_progress": null
+        },
+        {
+          "description": "Complete CSCI2400:",
+          "status": null,
+          "courses": [],
+          "hours_needed": null,
+          "hours_in_progress": null
+        },
+        {
+          "description": "SELECT FROM: CSCI2400",
+          "status": null,
+          "courses": [],
+          "hours_needed": null,
+          "hours_in_progress": null
+        },
+        {
+          "description": "Complete CSCI3104:",
+          "status": null,
+          "courses": [],
+          "hours_needed": null,
+          "hours_in_progress": null
+        },
+        {
+          "description": "SELECT FROM: CSCI3104",
+          "status": null,
+          "courses": [],
+          "hours_needed": null,
+          "hours_in_progress": null
+        },
+        {
+          "description": "Complete CSCI3155:",
+          "status": null,
+          "courses": [],
+          "hours_needed": null,
+          "hours_in_progress": null
+        },
+        {
+          "description": "SELECT FROM: CSCI3155",
+          "status": null,
+          "courses": [],
+          "hours_needed": null,
+          "hours_in_progress": null
+        },
+        {
+          "description": "Complete CSCI3308:",
+          "status": null,
+          "courses": [],
+          "hours_needed": null,
+          "hours_in_progress": null
+        },
+        {
+          "description": "SELECT FROM: CSCI3308",
+          "status": null,
+          "courses": [],
+          "hours_needed": null,
+          "hours_in_progress": null
+        },
+        {
+          "description": "Complete four courses from the CSCI core list:",
+          "status": null,
+          "courses": [],
+          "hours_needed": null,
+          "hours_in_progress": null
+        },
+        {
+          "description": "SELECT FROM: CSCI3002,3202,3287,3302,3403,3434,3656 OR",
+          "status": null,
+          "courses": [],
+          "hours_needed": null,
+          "hours_in_progress": null
+        },
+        {
+          "description": "Complete a Calculus I course:",
           "status": null,
           "courses": [
             {
               "term": "FA25",
               "semester": "FA",
               "year": 2025,
-              "course_code": "CSCI2275",
-              "credits": 4.0,
-              "grade": "A",
-              "title": "Programming and Data Structure",
-              "in_progress": false,
-              "transfer": false
-            }
-          ],
-          "hours_needed": null,
-          "hours_in_progress": null
-        },
-        {
-          "description": "Complete Algorithms:",
-          "status": null,
-          "courses": [
-            {
-              "term": "SP26",
-              "semester": "SP",
-              "year": 2026,
-              "course_code": "CSCI3104",
-              "credits": 4.0,
-              "grade": null,
-              "title": "Algorithms",
-              "in_progress": true,
-              "transfer": false
-            }
-          ],
-          "hours_needed": null,
-          "hours_in_progress": null
-        },
-        {
-          "description": "Complete Ordinary Differential Equations:",
-          "status": null,
-          "courses": [
-            {
-              "term": "SP26",
-              "semester": "SP",
-              "year": 2026,
-              "course_code": "MATH3430",
-              "credits": 3.0,
-              "grade": null,
-              "title": "Ordinary Differential Equation",
-              "in_progress": true,
-              "transfer": false
-            }
-          ],
-          "hours_needed": null,
-          "hours_in_progress": null
-        },
-        {
-          "description": "Complete Intermediate Numerical Analysis I:",
-          "status": null,
-          "courses": [],
-          "hours_needed": null,
-          "hours_in_progress": null
-        },
-        {
-          "description": "SELECT FROM: MATH4650 APPM4650",
-          "status": null,
-          "courses": [],
-          "hours_needed": null,
-          "hours_in_progress": null
-        },
-        {
-          "description": "Complete one 4000-level MATH or cross-listed APPM",
-          "status": null,
-          "courses": [],
-          "hours_needed": null,
-          "hours_in_progress": null
-        },
-        {
-          "description": "SELECT FROM: MATH4(X),5,6",
-          "status": null,
-          "courses": [],
-          "hours_needed": null,
-          "hours_in_progress": null
-        },
-        {
-          "description": "Complete an additional upper-division MATH or",
-          "status": null,
-          "courses": [],
-          "hours_needed": null,
-          "hours_in_progress": null
-        },
-        {
-          "description": "SELECT FROM: MATH3 TO 6",
-          "status": null,
-          "courses": [],
-          "hours_needed": null,
-          "hours_in_progress": null
-        },
-        {
-          "description": "Complete Intro to Probability Theory:",
-          "status": null,
-          "courses": [],
-          "hours_needed": null,
-          "hours_in_progress": null
-        },
-        {
-          "description": "SELECT FROM: MATH4510",
-          "status": null,
-          "courses": [],
-          "hours_needed": null,
-          "hours_in_progress": null
-        },
-        {
-          "description": "Complete Mathematical Statistics:",
-          "status": null,
-          "courses": [],
-          "hours_needed": null,
-          "hours_in_progress": null
-        },
-        {
-          "description": "SELECT FROM: MATH4520",
-          "status": null,
-          "courses": [],
-          "hours_needed": null,
-          "hours_in_progress": null
-        },
-        {
-          "description": "Complete Intro to Time Series:",
-          "status": null,
-          "courses": [],
-          "hours_needed": null,
-          "hours_in_progress": null
-        },
-        {
-          "description": "SELECT FROM: MATH4540",
-          "status": null,
-          "courses": [],
-          "hours_needed": null,
-          "hours_in_progress": null
-        },
-        {
-          "description": "Complete two of the following Statistics courses:",
-          "status": null,
-          "courses": [],
-          "hours_needed": null,
-          "hours_in_progress": null
-        },
-        {
-          "description": "SELECT FROM: STAT4000,4010,4610 APPM4590,4560 MATH4530,",
-          "status": null,
-          "courses": [],
-          "hours_needed": null,
-          "hours_in_progress": null
-        },
-        {
-          "description": "Complete at least 30 hours of MATH courses with a C-",
-          "status": null,
-          "courses": [
-            {
-              "term": "SP24",
-              "semester": "SP",
-              "year": 2024,
               "course_code": "MATH1300",
               "credits": 5.0,
-              "grade": "TC",
+              "grade": "A-",
               "title": "Calculus 1",
               "in_progress": false,
-              "transfer": true
-            },
+              "transfer": false
+            }
+          ],
+          "hours_needed": null,
+          "hours_in_progress": null
+        },
+        {
+          "description": "Complete a Calculus II course:",
+          "status": null,
+          "courses": [
             {
-              "term": "SP24",
+              "term": "SP26",
               "semester": "SP",
-              "year": 2024,
+              "year": 2026,
               "course_code": "MATH2300",
               "credits": 5.0,
-              "grade": "TC",
+              "grade": null,
               "title": "Calculus 2",
-              "in_progress": false,
-              "transfer": true
-            },
-            {
-              "term": "SP25",
-              "semester": "SP",
-              "year": 2025,
-              "course_code": "MATH2510",
-              "credits": 3.0,
-              "grade": "TC",
-              "title": "Introduction/Statistics",
-              "in_progress": false,
-              "transfer": true
-            },
-            {
-              "term": "SU25",
-              "semester": "SU",
-              "year": 2025,
-              "course_code": "MATH2400",
-              "credits": 4.0,
-              "grade": "A",
-              "title": "Calculus 3",
-              "in_progress": false,
-              "transfer": false
-            },
-            {
-              "term": "FA25",
-              "semester": "FA",
-              "year": 2025,
-              "course_code": "MATH2001",
-              "credits": 3.0,
-              "grade": "A",
-              "title": "Intro to Discrete Mathematics",
-              "in_progress": false,
-              "transfer": false
-            },
-            {
-              "term": "FA25",
-              "semester": "FA",
-              "year": 2025,
-              "course_code": "MATH2130",
-              "credits": 3.0,
-              "grade": "A",
-              "title": "Lin Algebra for Non-Math Mjrs",
-              "in_progress": false,
-              "transfer": false
-            },
-            {
-              "term": "SP26",
-              "semester": "SP",
-              "year": 2026,
-              "course_code": "CSCI3104",
-              "credits": 4.0,
-              "grade": null,
-              "title": "Algorithms",
-              "in_progress": true,
-              "transfer": false
-            },
-            {
-              "term": "SP26",
-              "semester": "SP",
-              "year": 2026,
-              "course_code": "MATH3430",
-              "credits": 3.0,
-              "grade": null,
-              "title": "Ordinary Differential Equation",
               "in_progress": true,
               "transfer": false
             }
           ],
           "hours_needed": null,
-          "hours_in_progress": 7.0,
-          "hours_added": 23.0
+          "hours_in_progress": null
         },
         {
-          "description": "Complete at least 27 hours of MATH courses beyond",
+          "description": "Complete one of the following Discrete Mathematics",
           "status": null,
           "courses": [
             {
-              "term": "SP25",
-              "semester": "SP",
-              "year": 2025,
-              "course_code": "MATH2510",
-              "credits": 3.0,
-              "grade": "TC",
-              "title": "Introduction/Statistics",
-              "in_progress": false,
-              "transfer": true
-            },
-            {
-              "term": "SU25",
-              "semester": "SU",
-              "year": 2025,
-              "course_code": "MATH2400",
-              "credits": 4.0,
-              "grade": "A",
-              "title": "Calculus 3",
-              "in_progress": false,
-              "transfer": false
-            },
-            {
-              "term": "FA25",
-              "semester": "FA",
-              "year": 2025,
-              "course_code": "MATH2001",
-              "credits": 3.0,
-              "grade": "A",
-              "title": "Intro to Discrete Mathematics",
-              "in_progress": false,
-              "transfer": false
-            },
-            {
-              "term": "FA25",
-              "semester": "FA",
-              "year": 2025,
-              "course_code": "MATH2130",
-              "credits": 3.0,
-              "grade": "A",
-              "title": "Lin Algebra for Non-Math Mjrs",
-              "in_progress": false,
-              "transfer": false
-            },
-            {
               "term": "SP26",
               "semester": "SP",
               "year": 2026,
-              "course_code": "CSCI3104",
-              "credits": 4.0,
-              "grade": null,
-              "title": "Algorithms",
-              "in_progress": true,
-              "transfer": false
-            },
-            {
-              "term": "SP26",
-              "semester": "SP",
-              "year": 2026,
-              "course_code": "MATH3430",
+              "course_code": "CSCI2824",
               "credits": 3.0,
               "grade": null,
-              "title": "Ordinary Differential Equation",
+              "title": "Discrete Structures",
               "in_progress": true,
               "transfer": false
             }
           ],
-          "hours_needed": 7.0,
-          "hours_in_progress": 7.0,
-          "hours_added": 13.0
+          "hours_needed": null,
+          "hours_in_progress": null
         },
         {
-          "description": "Complete at least 18 hours of upper-division MATH",
+          "description": "Complete one of the following Linear Algebra or",
+          "status": null,
+          "courses": [],
+          "hours_needed": null,
+          "hours_in_progress": null
+        },
+        {
+          "description": "SELECT FROM: CSCI2820 MATH2130,2135 APPM3310 CSCI3022",
+          "status": null,
+          "courses": [],
+          "hours_needed": null,
+          "hours_in_progress": null
+        },
+        {
+          "description": "Complete one of the following Logic courses:",
           "status": null,
           "courses": [
             {
               "term": "SP26",
               "semester": "SP",
               "year": 2026,
-              "course_code": "CSCI3104",
-              "credits": 4.0,
-              "grade": null,
-              "title": "Algorithms",
-              "in_progress": true,
-              "transfer": false
-            },
-            {
-              "term": "SP26",
-              "semester": "SP",
-              "year": 2026,
-              "course_code": "MATH3430",
+              "course_code": "PHIL1440",
               "credits": 3.0,
               "grade": null,
-              "title": "Ordinary Differential Equation",
+              "title": "Critical Thinking",
               "in_progress": true,
               "transfer": false
-            },
-            {
-              "term": "SP24",
-              "semester": "SP",
-              "year": 2024,
-              "course_code": "MATH1300",
-              "credits": 5.0,
-              "grade": "TC",
-              "title": "Calculus 1",
-              "in_progress": false,
-              "transfer": true
-            },
-            {
-              "term": "SP24",
-              "semester": "SP",
-              "year": 2024,
-              "course_code": "MATH2300",
-              "credits": 5.0,
-              "grade": "TC",
-              "title": "Calculus 2",
-              "in_progress": false,
-              "transfer": true
-            },
-            {
-              "term": "SP25",
-              "semester": "SP",
-              "year": 2025,
-              "course_code": "MATH2510",
-              "credits": 3.0,
-              "grade": "TC",
-              "title": "Introduction/Statistics",
-              "in_progress": false,
-              "transfer": true
-            },
-            {
-              "term": "SU25",
-              "semester": "SU",
-              "year": 2025,
-              "course_code": "MATH2400",
-              "credits": 4.0,
-              "grade": "A",
-              "title": "Calculus 3",
-              "in_progress": false,
-              "transfer": false
-            },
+            }
+          ],
+          "hours_needed": null,
+          "hours_in_progress": null
+        },
+        {
+          "description": "Complete one of the following Ethics courses:",
+          "status": null,
+          "courses": [
             {
               "term": "FA25",
               "semester": "FA",
               "year": 2025,
-              "course_code": "MATH2001",
+              "course_code": "PHIL1100",
               "credits": 3.0,
               "grade": "A",
-              "title": "Intro to Discrete Mathematics",
+              "title": "Ethics",
               "in_progress": false,
               "transfer": false
-            },
+            }
+          ],
+          "hours_needed": null,
+          "hours_in_progress": null
+        },
+        {
+          "description": "Complete at least 45 hours of approved CSCI courses.",
+          "status": null,
+          "courses": [
             {
               "term": "FA25",
               "semester": "FA",
               "year": 2025,
-              "course_code": "MATH2130",
-              "credits": 3.0,
-              "grade": "A",
-              "title": "Lin Algebra for Non-Math Mjrs",
-              "in_progress": false,
-              "transfer": false
-            },
-            {
-              "term": "SP26",
-              "semester": "SP",
-              "year": 2026,
-              "course_code": "CSCI3104",
-              "credits": 4.0,
-              "grade": null,
-              "title": "Algorithms",
-              "in_progress": true,
-              "transfer": false
-            },
-            {
-              "term": "SP26",
-              "semester": "SP",
-              "year": 2026,
-              "course_code": "MATH3430",
-              "credits": 3.0,
-              "grade": null,
-              "title": "Ordinary Differential Equation",
-              "in_progress": true,
-              "transfer": false
-            },
-            {
-              "term": "FA25",
-              "semester": "FA",
-              "year": 2025,
-              "course_code": "COEN1500",
-              "credits": 1.0,
-              "grade": "A",
-              "title": "CEAS FYS",
-              "in_progress": false,
-              "transfer": false
-            },
-            {
-              "term": "FA25",
-              "semester": "FA",
-              "year": 2025,
-              "course_code": "CSCI1000",
-              "credits": 1.0,
-              "grade": "A",
-              "title": "CS as Field of Wk and Stdy",
-              "in_progress": false,
-              "transfer": false
-            },
-            {
-              "term": "SP23",
-              "semester": "SP",
-              "year": 2023,
-              "course_code": "JPNS1010",
-              "credits": 5.0,
-              "grade": "TA",
-              "title": "Beginning Japanese 1",
-              "in_progress": false,
-              "transfer": true
-            },
-            {
-              "term": "SP25",
-              "semester": "SP",
-              "year": 2025,
-              "course_code": "JPNS1020",
-              "credits": 5.0,
-              "grade": "TA",
-              "title": "Beginning Japanese 2",
-              "in_progress": false,
-              "transfer": true
-            },
-            {
-              "term": "FA25",
-              "semester": "FA",
-              "year": 2025,
-              "course_code": "MATH2130",
-              "credits": 3.0,
-              "grade": "A",
-              "title": "Lin Algebra for Non-Math Mjrs",
-              "in_progress": false,
-              "transfer": false
-            },
-            {
-              "term": "SP25",
-              "semester": "SP",
-              "year": 2025,
-              "course_code": "MATH2510",
-              "credits": 3.0,
-              "grade": "TC",
-              "title": "Introduction/Statistics",
-              "in_progress": false,
-              "transfer": true
-            },
-            {
-              "term": "SP25",
-              "semester": "SP",
-              "year": 2025,
-              "course_code": "WRTG1250",
-              "credits": 3.0,
-              "grade": "A",
-              "title": "Advanced 1st Yr Writing",
-              "in_progress": false,
-              "transfer": false
-            },
-            {
-              "term": "SP26",
-              "semester": "SP",
-              "year": 2026,
-              "course_code": "CSCI2400",
-              "credits": 4.0,
-              "grade": null,
-              "title": "Computer Systems",
-              "in_progress": true,
-              "transfer": false
-            },
-            {
-              "term": "SP26",
-              "semester": "SP",
-              "year": 2026,
-              "course_code": "CSCI3308",
-              "credits": 3.0,
-              "grade": null,
-              "title": "Software Dev Methods and Tools",
-              "in_progress": true,
-              "transfer": false
-            },
-            {
-              "term": "SP26",
-              "semester": "SP",
-              "year": 2026,
-              "course_code": "PHYS1140",
-              "credits": 1.0,
-              "grade": null,
-              "title": "Experimental Physics 1",
-              "in_progress": true,
-              "transfer": false
-            },
-            {
-              "term": "SP26",
-              "semester": "SP",
-              "year": 2026,
-              "course_code": "PHYS2130",
-              "credits": 3.0,
-              "grade": null,
-              "title": "Quantum Mech for Engineers",
-              "in_progress": true,
-              "transfer": false
-            },
-            {
-              "term": "SP24",
-              "semester": "SP",
-              "year": 2024,
               "course_code": "CSCI1300",
-              "credits": 0.0,
-              "grade": "TC",
-              "title": ">N >R",
+              "credits": 4.0,
+              "grade": "A",
+              "title": "CS 1: Starting Computing",
               "in_progress": false,
-              "transfer": true
+              "transfer": false
+            },
+            {
+              "term": "SP26",
+              "semester": "SP",
+              "year": 2026,
+              "course_code": "CSCI2270",
+              "credits": 4.0,
+              "grade": null,
+              "title": "Comp Sci 2: Data Struct",
+              "in_progress": true,
+              "transfer": false
+            },
+            {
+              "term": "FA25",
+              "semester": "FA",
+              "year": 2025,
+              "course_code": "CSCI1300",
+              "credits": 4.0,
+              "grade": "A",
+              "title": "CS 1: Starting Computing",
+              "in_progress": false,
+              "transfer": false
+            },
+            {
+              "term": "SP26",
+              "semester": "SP",
+              "year": 2026,
+              "course_code": "CSCI2270",
+              "credits": 4.0,
+              "grade": null,
+              "title": "Comp Sci 2: Data Struct",
+              "in_progress": true,
+              "transfer": false
             }
           ],
-          "hours_needed": 5.0,
-          "hours_in_progress": 7.0,
-          "hours_added": 0.0,
+          "hours_needed": 37.0,
+          "hours_in_progress": 4.0,
+          "hours_added": 4.0,
           "gpa": 4.0
+        },
+        {
+          "description": "Complete enough electives to bring the total credit hours",
+          "status": null,
+          "courses": [
+            {
+              "term": "FA22",
+              "semester": "FA",
+              "year": 2022,
+              "course_code": "CSCI1200",
+              "credits": 3.0,
+              "grade": "TA",
+              "title": "Intro Computational Thinking",
+              "in_progress": false,
+              "transfer": true,
+              "transfer_equivalent": "CIS130"
+            }
+          ],
+          "hours_needed": null,
+          "hours_in_progress": null
         }
       ],
       "courses": [],
-      "notes": [],
-      "hours_needed": 16.0
+      "notes": []
     }
   ],
   "coursework_history": {
     "terms": {
-      "SP25": [
-        {
-          "term": "SP25",
-          "semester": "SP",
-          "year": 2025,
-          "course_code": "WRTG1250",
-          "credits": 3.0,
-          "grade": "A",
-          "title": "Advanced 1st Yr Writing",
-          "in_progress": false,
-          "transfer": false
-        }
-      ],
-      "SU25": [
-        {
-          "term": "SU25",
-          "semester": "SU",
-          "year": 2025,
-          "course_code": "MATH2400",
-          "credits": 4.0,
-          "grade": "A",
-          "title": "Calculus 3",
-          "in_progress": false,
-          "transfer": false
-        }
-      ],
       "FA25": [
         {
           "term": "FA25",
@@ -1153,10 +720,21 @@
           "term": "FA25",
           "semester": "FA",
           "year": 2025,
-          "course_code": "CSCI1000",
+          "course_code": "ATOC1060",
+          "credits": 3.0,
+          "grade": "A",
+          "title": "Our Changing Environment",
+          "in_progress": false,
+          "transfer": false
+        },
+        {
+          "term": "FA25",
+          "semester": "FA",
+          "year": 2025,
+          "course_code": "COEN1500",
           "credits": 1.0,
           "grade": "A",
-          "title": "CS as Field of Wk and Stdy",
+          "title": "CEAS FYS",
           "in_progress": false,
           "transfer": false
         },
@@ -1164,10 +742,10 @@
           "term": "FA25",
           "semester": "FA",
           "year": 2025,
-          "course_code": "CSCI2275",
+          "course_code": "CSCI1300",
           "credits": 4.0,
           "grade": "A",
-          "title": "Programming and Data Structure",
+          "title": "CS 1: Starting Computing",
           "in_progress": false,
           "transfer": false
         },
@@ -1175,10 +753,10 @@
           "term": "FA25",
           "semester": "FA",
           "year": 2025,
-          "course_code": "MATH2001",
-          "credits": 3.0,
-          "grade": "A",
-          "title": "Intro to Discrete Mathematics",
+          "course_code": "MATH1300",
+          "credits": 5.0,
+          "grade": "A-",
+          "title": "Calculus 1",
           "in_progress": false,
           "transfer": false
         },
@@ -1186,21 +764,10 @@
           "term": "FA25",
           "semester": "FA",
           "year": 2025,
-          "course_code": "MATH2130",
+          "course_code": "PHIL1100",
           "credits": 3.0,
           "grade": "A",
-          "title": "Lin Algebra for Non-Math Mjrs",
-          "in_progress": false,
-          "transfer": false
-        },
-        {
-          "term": "FA25",
-          "semester": "FA",
-          "year": 2025,
-          "course_code": "PHIL1440",
-          "credits": 3.0,
-          "grade": "A",
-          "title": "Critical Thinking",
+          "title": "Ethics",
           "in_progress": false,
           "transfer": false
         }
@@ -1210,10 +777,10 @@
           "term": "SP26",
           "semester": "SP",
           "year": 2026,
-          "course_code": "CSCI2400",
+          "course_code": "CSCI2270",
           "credits": 4.0,
           "grade": null,
-          "title": "Computer Systems",
+          "title": "Comp Sci 2: Data Struct",
           "in_progress": true,
           "transfer": false
         },
@@ -1221,21 +788,10 @@
           "term": "SP26",
           "semester": "SP",
           "year": 2026,
-          "course_code": "CSCI3104",
-          "credits": 4.0,
-          "grade": null,
-          "title": "Algorithms",
-          "in_progress": true,
-          "transfer": false
-        },
-        {
-          "term": "SP26",
-          "semester": "SP",
-          "year": 2026,
-          "course_code": "CSCI3308",
+          "course_code": "CSCI2824",
           "credits": 3.0,
           "grade": null,
-          "title": "Software Dev Methods and Tools",
+          "title": "Discrete Structures",
           "in_progress": true,
           "transfer": false
         },
@@ -1243,10 +799,21 @@
           "term": "SP26",
           "semester": "SP",
           "year": 2026,
-          "course_code": "MATH3430",
+          "course_code": "MATH2300",
+          "credits": 5.0,
+          "grade": null,
+          "title": "Calculus 2",
+          "in_progress": true,
+          "transfer": false
+        },
+        {
+          "term": "SP26",
+          "semester": "SP",
+          "year": 2026,
+          "course_code": "PHIL1440",
           "credits": 3.0,
           "grade": null,
-          "title": "Ordinary Differential Equation",
+          "title": "Critical Thinking",
           "in_progress": true,
           "transfer": false
         },
@@ -1254,21 +821,10 @@
           "term": "SP26",
           "semester": "SP",
           "year": 2026,
-          "course_code": "PHYS1140",
-          "credits": 1.0,
-          "grade": null,
-          "title": "Experimental Physics 1",
-          "in_progress": true,
-          "transfer": false
-        },
-        {
-          "term": "SP26",
-          "semester": "SP",
-          "year": 2026,
-          "course_code": "PHYS2130",
+          "course_code": "PSYC1001",
           "credits": 3.0,
           "grade": null,
-          "title": "Quantum Mech for Engineers",
+          "title": "General Psychology",
           "in_progress": true,
           "transfer": false
         }
@@ -1276,168 +832,50 @@
     },
     "transfer_credits": [
       {
-        "term": "SP23",
-        "semester": "SP",
-        "year": 2023,
-        "course_code": "JPNS1010",
-        "credits": 5.0,
-        "grade": "TA",
-        "title": "Beginning Japanese 1",
-        "in_progress": false,
-        "transfer": true
-      },
-      {
-        "term": "SP24",
-        "semester": "SP",
-        "year": 2024,
-        "course_code": "CSCI1300",
-        "credits": 0.0,
-        "grade": "TC",
-        "title": ">N >R",
-        "in_progress": false,
-        "transfer": true
-      },
-      {
-        "term": "SP24",
-        "semester": "SP",
-        "year": 2024,
-        "course_code": "CSCI1300",
-        "credits": 4.0,
-        "grade": "TC",
-        "title": ">R CS 1: Starting Computing",
-        "in_progress": false,
-        "transfer": true
-      },
-      {
-        "term": "SP24",
-        "semester": "SP",
-        "year": 2024,
-        "course_code": "HIST1025",
-        "credits": 3.0,
-        "grade": "TC",
-        "title": "American History since 1865",
-        "in_progress": false,
-        "transfer": true
-      },
-      {
-        "term": "SP24",
-        "semester": "SP",
-        "year": 2024,
-        "course_code": "MATH1300",
-        "credits": 5.0,
-        "grade": "TC",
-        "title": "Calculus 1",
-        "in_progress": false,
-        "transfer": true
-      },
-      {
-        "term": "SP24",
-        "semester": "SP",
-        "year": 2024,
-        "course_code": "MATH2300",
-        "credits": 5.0,
-        "grade": "TC",
-        "title": "Calculus 2",
-        "in_progress": false,
-        "transfer": true
-      },
-      {
-        "term": "SP24",
-        "semester": "SP",
-        "year": 2024,
-        "course_code": "WRTG1150",
-        "credits": 3.0,
-        "grade": "TC",
-        "title": "1st Yr Writing/Rhetoric",
-        "in_progress": false,
-        "transfer": true
-      },
-      {
-        "term": "SP25",
-        "semester": "SP",
-        "year": 2025,
-        "course_code": "CHEM1113",
-        "credits": 4.0,
-        "grade": "TC",
-        "title": "General Chemistry 1",
-        "in_progress": false,
-        "transfer": true
-      },
-      {
-        "term": "SP25",
-        "semester": "SP",
-        "year": 2025,
-        "course_code": "CHEM1114",
-        "credits": 1.0,
-        "grade": "TC",
-        "title": "Laboratory Gen Chem 1",
-        "in_progress": false,
-        "transfer": true
-      },
-      {
-        "term": "SP25",
-        "semester": "SP",
-        "year": 2025,
-        "course_code": "JPNS1020",
-        "credits": 5.0,
-        "grade": "TA",
-        "title": "Beginning Japanese 2",
-        "in_progress": false,
-        "transfer": true
-      },
-      {
-        "term": "SP25",
-        "semester": "SP",
-        "year": 2025,
+        "term": "FA22",
+        "semester": "FA",
+        "year": 2022,
         "course_code": "MATH2510",
         "credits": 3.0,
-        "grade": "TC",
+        "grade": "TA",
         "title": "Introduction/Statistics",
         "in_progress": false,
-        "transfer": true
+        "transfer": true,
+        "transfer_equivalent": "MAT212"
       },
       {
-        "term": "SP25",
-        "semester": "SP",
-        "year": 2025,
-        "course_code": "PHYS1110",
-        "credits": 4.0,
-        "grade": "TC",
-        "title": "General Physics 1",
-        "in_progress": false,
-        "transfer": true
-      },
-      {
-        "term": "SP25",
-        "semester": "SP",
-        "year": 2025,
-        "course_code": "PHYS1120",
-        "credits": 4.0,
-        "grade": "TC",
-        "title": "General Physics 2",
-        "in_progress": false,
-        "transfer": true
-      },
-      {
-        "term": "SP25",
-        "semester": "SP",
-        "year": 2025,
-        "course_code": "PSCI1101",
+        "term": "FA22",
+        "semester": "FA",
+        "year": 2022,
+        "course_code": "CSCI1200",
         "credits": 3.0,
-        "grade": "TC",
-        "title": "Intro to American Politics",
+        "grade": "TA",
+        "title": "Intro Computational Thinking",
         "in_progress": false,
-        "transfer": true
+        "transfer": true,
+        "transfer_equivalent": "CIS130"
+      },
+      {
+        "term": "FA22",
+        "semester": "FA",
+        "year": 2022,
+        "course_code": "MATH2510",
+        "credits": 3.0,
+        "grade": "TA",
+        "title": "Introduction/Statistics",
+        "in_progress": false,
+        "transfer": true,
+        "transfer_equivalent": "MAT212"
       }
     ]
   },
   "raw_notes": [],
   "summary": {
-    "total_courses_completed": 22,
-    "total_courses_in_progress": 6,
-    "total_credits_completed": 71.0,
+    "total_courses_completed": 9,
+    "total_courses_in_progress": 5,
+    "total_credits_completed": 26.0,
     "total_credits_in_progress": 18.0,
-    "requirements_total": 2,
+    "requirements_total": 3,
     "requirements_met": 0,
     "requirements_not_met": 0
   }
