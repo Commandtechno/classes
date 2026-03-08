@@ -89,5 +89,5 @@ export interface GroupedCoursesResponse {
 
 export interface AiRecommendation {
   priority: number; // 1-5, 1 = highest priority
-  course: Course;
+  courses: Course[];
 }

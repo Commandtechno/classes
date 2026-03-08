@@ -73,12 +73,11 @@ export async function getRecommendedCourses(fileId: string): Promise<AiRecommend
   });
   if (!res.ok) throw new Error(`API error: ${res.status}`);
   const data = await res.json();
-  // Map 'name' to 'title' if needed
   return data.map((item: any) => ({
     priority: item.priority,
-    course: {
-      ...item.course,
-      title: item.course.title || item.course.name || "",
-    },
+    courses: item.courses.map((c: any) => ({
+      ...c,
+      title: c.title || c.name || "",
+    })),
   }));
 }

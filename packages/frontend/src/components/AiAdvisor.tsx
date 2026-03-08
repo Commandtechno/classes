@@ -17,7 +17,7 @@ interface Props {
 type State =
   | { type: "upload" }
   | { type: "loading"; message: string }
-  | { type: "results"; recommendations: Array<{ priority: number; course: Course }> }
+  | { type: "results"; recommendations: Array<{ priority: number; courses: Course[] }> }
   | { type: "error"; message: string };
 
 const priorityColors: Record<number, string> = {
@@ -98,14 +98,17 @@ export default function AiAdvisor({
     }
   }, [conflictState, onAddCourse]);
 
-  const createCourseGroup = (course: Course): CourseGroup => ({
-    code: course.code,
-    title: course.title,
-    department: course.department,
-    courseNumber: course.courseNumber,
-    credits: course.credits,
-    sections: [course],
-  });
+  const createCourseGroup = (courses: Course[]): CourseGroup => {
+    const first = courses[0];
+    return {
+      code: first.code,
+      title: first.title,
+      department: first.department,
+      courseNumber: first.courseNumber,
+      credits: first.credits,
+      sections: courses,
+    };
+  };
 
   return (
     <div>
@@ -163,11 +166,11 @@ export default function AiAdvisor({
               {state.recommendations.length === 0 ? (
                 <p className="text-xs text-gray-400 py-3 text-center">No recommendations found.</p>
               ) : (
-                state.recommendations.map(({ priority, course }) => {
-                  const group = createCourseGroup(course);
+                state.recommendations.map(({ priority, courses }) => {
+                  const group = createCourseGroup(courses);
                   const priorityColor = priorityColors[priority] || "bg-gray-400";
                   return (
-                    <div key={course.crn}>
+                    <div key={courses[0]?.code || String(priority)}>
                       <div className="flex items-center gap-1.5 mb-1 px-1">
                         <div className={`w-2 h-2 rounded-full ${priorityColor}`} />
                         <span className="text-[10px] text-gray-500 font-medium">Priority {priority}</span>
