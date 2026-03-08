@@ -3,6 +3,7 @@ import type { Course } from "../types.ts";
 import ScheduleList from "./ScheduleList.tsx";
 import WishlistPanel from "./WishlistPanel.tsx";
 import ConflictDialog from "./ConflictDialog.tsx";
+import AiAdvisor from "./AiAdvisor.tsx";
 import { hasConflict } from "../utils/conflicts.ts";
 
 interface Props {
@@ -13,6 +14,7 @@ interface Props {
   onRemoveCourse: (crn: string) => void;
   onReplaceSection: (oldCrn: string, newCourse: Course) => void;
   onRemoveFromWishlist: (crn: string) => void;
+  onAddToWishlist: (course: Course) => void;
 }
 
 export default function LeftPanel({
@@ -23,6 +25,7 @@ export default function LeftPanel({
   onRemoveCourse,
   onReplaceSection,
   onRemoveFromWishlist,
+  onAddToWishlist,
 }: Props) {
   const [conflictState, setConflictState] = useState<{
     courses: Course[];
@@ -56,6 +59,18 @@ export default function LeftPanel({
           items={wishlist}
           onAddToSchedule={handleWishlistAdd}
           onRemove={onRemoveFromWishlist}
+        />
+      </div>
+
+      <div className="border-t border-gray-200 mx-3" />
+
+      <div className="p-3">
+        <AiAdvisor
+          scheduledCourses={scheduledCourses}
+          wishlist={wishlist}
+          onAddCourse={onAddCourse}
+          onAddToWishlist={onAddToWishlist}
+          onRemoveFromWishlist={onRemoveFromWishlist}
         />
       </div>
 
