@@ -111,7 +111,7 @@ export default function AiAdvisor({
       >
         <span className="flex items-center gap-2">
           <Sparkles className="w-4 h-4 text-cu-gold" />
-          AI Advisor
+          AI Course Recommendations
         </span>
         {open ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />}
       </button>
