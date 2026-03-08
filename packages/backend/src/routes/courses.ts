@@ -3,6 +3,7 @@ import type { Document } from "mongodb";
 import { getCoursesCollection } from "../db.js";
 import { buildSearchStage, buildMatchStage } from "../services/search.js";
 import type { Course, CourseDocument, MeetingTime, CourseGroup } from "../types.js";
+import { calculateWalkingDistance, getClassLocationId } from "../services/walking.js";
 
 const courses = new Hono();
 
@@ -252,6 +253,19 @@ courses.post("/bulk", async c => {
   const docs = await collection.find({ code: { $in: codes } });
   const courses = await docs.map(doc => parseCourse(doc)).toArray();
   return c.json(courses);
+});
+
+courses.post("/distance", async c => {
+  const body = await c.req.json();
+  console.log("resolving classes");
+  const [srcId, destId] = await Promise.all([getClassLocationId(body.src), getClassLocationId(body.dest)]);
+  if (!srcId || !destId) {
+    return c.json({ error: "missing src or dest" }, 500);
+  }
+
+  console.log("calculating distance");
+  const dist = await calculateWalkingDistance(srcId, destId);
+  return c.json(dist);
 });
 
 export default courses;

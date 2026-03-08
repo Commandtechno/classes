@@ -4,11 +4,11 @@ import type { Course, CourseGroup } from "../types.ts";
 import { hasConflict } from "../utils/conflicts.ts";
 
 const priorityColors: Record<number, string> = {
-  1: "bg-red-500",
-  2: "bg-orange-500",
-  3: "bg-yellow-500",
-  4: "bg-emerald-500",
-  5: "bg-blue-500"
+  1: "decoration-red-500",
+  2: "decoration-orange-500",
+  3: "decoration-yellow-500",
+  4: "decoration-emerald-500",
+  5: "decoration-blue-500"
 };
 
 interface Props {
@@ -231,7 +231,7 @@ export default function CourseCard({
       // Single section - just display inline
       return (
         <div className="mt-2">
-          <div className="flex flex-wrap gap-x-3 gap-y-0.5 text-[11px] text-gray-500 dark:text-gray-400 px-2 py-1.5 bg-gray-50 dark:bg-zinc-700/50 rounded-md border border-gray-200 dark:border-zinc-600">
+          <div className="flex flex-wrap gap-x-3 gap-y-0.5 text-[11px] text-gray-500 dark:text-gray-400 px-2 py-1.5 bg-zinc-50 dark:bg-zinc-700/50 rounded-md border border-gray-200 dark:border-zinc-600">
             <span>
               {selected.schd} {selected.no}
             </span>
@@ -247,7 +247,7 @@ export default function CourseCard({
         <button
           disabled={disabled}
           onClick={() => !disabled && setIsOpen(!isOpen)}
-          className="w-full flex items-center justify-between gap-2 px-2 py-1.5 text-[11px] text-gray-600 dark:text-gray-300 bg-gray-50 dark:bg-zinc-700/50 not-disabled:hover:bg-gray-100 dark:not-disabled:hover:bg-zinc-600 rounded-md border border-gray-200 dark:border-zinc-600 transition-colors disabled:cursor-not-allowed"
+          className="w-full flex items-center justify-between gap-2 px-2 py-1.5 text-[11px] text-gray-600 dark:text-gray-300 bg-zinc-50 dark:bg-zinc-700/50 not-disabled:hover:bg-zinc-100 dark:not-disabled:hover:bg-zinc-600 rounded-md border border-gray-200 dark:border-zinc-600 transition-colors disabled:cursor-not-allowed"
         >
           <span className="truncate">
             {selected.schd} {selected.no} · {selected.meets || "TBA"} · {selected.instr || "TBA"}
@@ -266,7 +266,7 @@ export default function CourseCard({
                   key={section.crn}
                   onClick={() => onSelect(idx)}
                   className={`w-full flex items-center justify-between gap-2 px-3 py-2 text-left text-[11px] transition-colors ${
-                    isSelected ? "bg-amber-50 dark:bg-cu-gold/30" : "hover:bg-gray-50 dark:hover:bg-zinc-700"
+                    isSelected ? "bg-amber-50 dark:bg-cu-gold/30" : "hover:bg-zinc-50 dark:hover:bg-zinc-700"
                   } ${!isAvailable ? "opacity-50" : ""}`}
                 >
                   <div className="min-w-0 flex-1">
@@ -311,8 +311,11 @@ export default function CourseCard({
       <div className="flex items-start justify-between gap-2">
         <div className="min-w-0 flex-1">
           <div className="flex items-center gap-2">
-            {priority && <span className={`w-2 h-2 rounded-full ${priorityColors[priority]}`} />}
-            <p className="font-semibold text-sm text-gray-900 dark:text-gray-100 truncate">{group.code}</p>
+            <p
+              className={`font-semibold text-sm text-gray-900 dark:text-gray-100 truncate ${priority ? `underline decoration-2 ${priorityColors[priority]}` : ""}`}
+            >
+              {group.code}
+            </p>
           </div>
           <p className="text-xs text-gray-600 dark:text-gray-400 mt-0.5 truncate">{group.title}</p>
         </div>
@@ -378,14 +381,14 @@ export default function CourseCard({
           <button
             onClick={handleAdd}
             disabled={hasLinkedSections && hasLinkedDependents && !selectedDependent}
-            className="flex items-center gap-1 px-2.5 py-1 text-[11px] font-medium rounded-md bg-cu-gold text-white cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
+            className="flex items-center gap-1 px-2.5 py-1 text-[11px] font-medium rounded-md bg-cu-gold text-cu-black cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
           >
             <Plus className="w-3 h-3" />
             Add
           </button>
         )}
         {isScheduled && (
-          <span className="flex items-center gap-1 px-2.5 py-1 text-[11px] font-medium rounded-md bg-cu-gold text-white opacity-50 cursor-not-allowed ">
+          <span className="flex items-center gap-1 px-2.5 py-1 text-[11px] font-medium rounded-md bg-cu-gold text-cu-black opacity-50 cursor-not-allowed ">
             <Check className="w-3 h-3" />
             Scheduled
           </span>

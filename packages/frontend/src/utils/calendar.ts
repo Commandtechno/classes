@@ -16,14 +16,11 @@ export function timeToMinutesFromStart(t: string): number {
   return (hours - START_HOUR) * 60 + minutes;
 }
 
-export function topOffset(startTime: string): number {
-  const mins = timeToMinutesFromStart(startTime);
+export function topOffset(mins: number): number {
   return (mins / 30) * ROW_HEIGHT;
 }
 
-export function blockHeight(startTime: string, endTime: string): number {
-  const startMins = timeToMinutesFromStart(startTime);
-  const endMins = timeToMinutesFromStart(endTime);
+export function blockHeight(startMins: number, endMins: number): number {
   return ((endMins - startMins) / 30) * ROW_HEIGHT;
 }
 

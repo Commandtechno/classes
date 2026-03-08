@@ -1,8 +1,9 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { X, ArrowLeftRight, ChevronDown, ChevronUp, GraduationCap } from "lucide-react";
 import type { Course } from "../types.ts";
 import { getCourseBg } from "../utils/colors.ts";
 import SectionPicker from "./SectionPicker.tsx";
+import WalkingDistance from "./WalkingDistance.tsx";
 
 interface Props {
   courses: Course[];
@@ -53,8 +54,8 @@ export default function ScheduleList({ courses, totalCredits, onRemove, onReplac
             >
               <div className="flex-1 min-w-0">
                 <p className="text-xs font-semibold text-gray-800 dark:text-gray-200 truncate">{course.code}</p>
-                <p className="text-[10px] text-gray-600 dark:text-gray-400">{course.title}</p>
-                <p className="text-[10px] text-gray-600 dark:text-gray-400 truncate">
+                <p className="text-[10px] text-gray-600 dark:text-gray-300">{course.title}</p>
+                <p className="text-[10px] text-gray-600 dark:text-gray-300 truncate">
                   {course.schd} {course.no} • {course.meets || "TBA"}
                 </p>
               </div>

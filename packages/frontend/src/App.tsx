@@ -1,5 +1,5 @@
-import { useState } from "react";
-import { Menu, X, GraduationCap, Sun, Moon } from "lucide-react";
+import { useEffect, useState } from "react";
+import { Menu, X, GraduationCap, Sun, Moon, MapIcon } from "lucide-react";
 import Calendar from "./components/Calendar.tsx";
 import Sidebar from "./components/Sidebar.tsx";
 import LeftPanel from "./components/LeftPanel.tsx";
@@ -19,23 +19,39 @@ export default function App() {
   const [selectedCourse, setSelectedCourse] = useState<Course | null>(null);
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [leftPanelOpen, setLeftPanelOpen] = useState(false);
+  const [mapOpen, setMapOpen] = useState(false);
+
+  useEffect(() => {
+    if (sidebarOpen) setLeftPanelOpen(false);
+  }, [sidebarOpen]);
+
+  useEffect(() => {
+    if (leftPanelOpen) setSidebarOpen(false);
+  }, [leftPanelOpen]);
 
   return (
-    <div className="h-screen flex flex-col bg-gray-100 dark:bg-zinc-900">
+    <div className="h-screen flex flex-col bg-zinc-100 dark:bg-zinc-900">
       <header className="shrink-0 bg-cu-black text-white px-4 py-3 flex items-center justify-between shadow-lg z-40">
         <div className="flex items-center gap-3"></div>
 
         <div className="flex items-center gap-2">
           <button
             onClick={() => setLeftPanelOpen(!leftPanelOpen)}
-            className="lg:hidden p-2 text-gray-400 hover:text-white rounded-lg hover:bg-gray-800 transition-colors"
+            className="lg:hidden p-2 cursor-pointer text-gray-400 hover:text-white rounded-lg hover:bg-zinc-800 transition-colors"
             title="My Schedule"
           >
             <GraduationCap className="w-5 h-5" />
           </button>
           <button
+            onClick={() => setMapOpen(!mapOpen)}
+            className={`p-2 transition-colors rounded-lg cursor-pointer ${mapOpen ? "text-white bg-zinc-800" : "text-gray-400 hover:text-white hover:bg-zinc-800"}`}
+            title="Toggle dark mode"
+          >
+            <MapIcon className="w-5 h-5" />
+          </button>
+          <button
             onClick={toggle}
-            className="p-2 text-gray-400 hover:text-white rounded-lg hover:bg-gray-800 transition-colors"
+            className="p-2 cursor-pointer text-gray-400 hover:text-white rounded-lg hover:bg-zinc-800 transition-colors"
             title="Toggle dark mode"
           >
             {theme === "dark" ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
@@ -43,7 +59,7 @@ export default function App() {
           <ExportMenu courses={scheduler.scheduledCourses} />
           <button
             onClick={() => setSidebarOpen(!sidebarOpen)}
-            className="lg:hidden p-2 text-gray-400 hover:text-white rounded-lg hover:bg-gray-800 transition-colors"
+            className="lg:hidden p-2 text-gray-400 hover:text-white rounded-lg hover:bg-zinc-800 transition-colors"
           >
             {sidebarOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
           </button>
@@ -54,7 +70,7 @@ export default function App() {
         {/* Left panel: schedule + wishlist */}
         <div
           className={`
-            w-90 shrink-0 border-r border-gray-200 dark:border-zinc-700 bg-gray-50 dark:bg-zinc-800/70 overflow-hidden
+            w-90 shrink-0 border-r border-gray-200 dark:border-zinc-700 bg-zinc-50 dark:bg-zinc-800/70 overflow-hidden
             max-lg:absolute max-lg:inset-y-0 max-lg:left-0 max-lg:z-30 max-lg:shadow-2xl
             max-lg:transition-transform max-lg:duration-300
             ${leftPanelOpen ? "max-lg:translate-x-0" : "max-lg:-translate-x-full"}
@@ -80,7 +96,7 @@ export default function App() {
         {/* Right panel: search */}
         <div
           className={`
-            w-90 shrink-0 border-l border-gray-200 dark:border-zinc-700 bg-gray-50 dark:bg-zinc-800/70 overflow-hidden
+            w-90 shrink-0 border-l border-gray-200 dark:border-zinc-700 bg-zinc-50 dark:bg-zinc-800/70 overflow-hidden
             max-lg:absolute max-lg:inset-y-0 max-lg:right-0 max-lg:z-30 max-lg:shadow-2xl
             max-lg:transition-transform max-lg:duration-300
             ${sidebarOpen ? "max-lg:translate-x-0" : "max-lg:translate-x-full"}

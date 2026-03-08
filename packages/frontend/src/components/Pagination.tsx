@@ -57,7 +57,7 @@ export default function Pagination({ page, totalPages, onPageChange }: Props) {
       <button
         onClick={() => onPageChange(page - 1)}
         disabled={page === 1}
-        className="min-w-8 h-8 flex items-center justify-center text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-zinc-700 rounded-md disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+        className="min-w-8 h-8 flex items-center justify-center text-gray-600 dark:text-gray-400 hover:bg-zinc-100 dark:hover:bg-zinc-700 rounded-md disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
       >
         <ChevronLeft className="w-4 h-4" />
       </button>
@@ -74,10 +74,10 @@ export default function Pagination({ page, totalPages, onPageChange }: Props) {
           <button
             key={p}
             onClick={() => onPageChange(p as number)}
-            className={`min-w-8 h-8 text-xs font-medium rounded-md transition-colors ${
+            className={`min-w-8 h-8 text-xs rounded-md transition-colors ${
               page === p
-                ? "bg-cu-gold text-white"
-                : "text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-zinc-700"
+                ? "bg-cu-gold text-cu-black font-bold"
+                : "text-gray-600 font-medium dark:text-gray-400 hover:bg-zinc-100 dark:hover:bg-zinc-700"
             }`}
           >
             {p}
@@ -88,7 +88,7 @@ export default function Pagination({ page, totalPages, onPageChange }: Props) {
       <button
         onClick={() => onPageChange(page + 1)}
         disabled={page === totalPages}
-        className="min-w-8 h-8 flex items-center justify-center text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-zinc-700 rounded-md disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+        className="min-w-8 h-8 flex items-center justify-center text-gray-600 dark:text-gray-400 hover:bg-zinc-100 dark:hover:bg-zinc-700 rounded-md disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
       >
         <ChevronRight className="w-4 h-4" />
       </button>

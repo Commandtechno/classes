@@ -24,6 +24,7 @@ export interface Course {
   credits: string;
   linked_crns: string;
   is_enroll_section: string;
+  srcdb: string;
 }
 
 export interface CoursesResponse {

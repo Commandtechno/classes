@@ -9,9 +9,11 @@ import {
   topOffset,
   blockHeight,
   currentTimeOffset,
-  currentDayIndex
+  currentDayIndex,
+  timeToMinutesFromStart
 } from "../utils/calendar.ts";
 import CalendarBlock from "./CalendarBlock.tsx";
+import WalkingDistance from "./WalkingDistance.tsx";
 
 interface Props {
   courses: Course[];
@@ -24,6 +26,8 @@ interface PlacedBlock {
   day: number;
   top: number;
   height: number;
+  startTime: number;
+  endTime: number;
 }
 
 export default function Calendar({ courses, onCourseClick }: Props) {
@@ -51,9 +55,11 @@ export default function Calendar({ courses, onCourseClick }: Props) {
       for (const mt of course.meetingTimes) {
         const day = parseInt(mt.meet_day);
         if (day < 0 || day > 4) continue;
-        const top = topOffset(mt.start_time);
-        const height = blockHeight(mt.start_time, mt.end_time);
-        placed.push({ course, colorIndex: idx, day, top, height });
+        const startTime = timeToMinutesFromStart(mt.start_time);
+        const endTime = timeToMinutesFromStart(mt.end_time);
+        const top = topOffset(startTime);
+        const height = blockHeight(startTime, endTime);
+        placed.push({ course, colorIndex: idx, day, top, height, startTime, endTime });
       }
     }
     return placed;
@@ -120,7 +126,7 @@ export default function Calendar({ courses, onCourseClick }: Props) {
 
   return (
     <div className="flex flex-col h-full bg-white dark:bg-zinc-800 rounded-xl shadow-sm border border-gray-200 dark:border-zinc-700 overflow-hidden">
-      <div className="flex border-b border-gray-200 dark:border-zinc-700 bg-gray-50/80 dark:bg-zinc-800">
+      <div className="flex border-b border-gray-200 dark:border-zinc-700 bg-zinc-50/80 dark:bg-zinc-800">
         <div className="w-16 shrink-0" />
         {DAY_LABELS.map((label, i) => (
           <div
@@ -170,23 +176,32 @@ export default function Calendar({ courses, onCourseClick }: Props) {
                   />
                 ))}
 
-                {overlapGroups[day].map(({ block, col, totalCols }, idx) => {
+                {overlapGroups[day].map(({ block, col, totalCols }, idx, blocks) => {
                   const widthPct = 100 / totalCols;
                   const leftPct = col * widthPct;
                   return (
-                    <CalendarBlock
-                      key={`${block.course.crn}-${idx}`}
-                      course={block.course}
-                      colorIndex={block.colorIndex}
-                      style={{
-                        top: block.top,
-                        height: block.height,
-                        left: `${leftPct}%`,
-                        width: `${widthPct}%`,
-                        position: "absolute"
-                      }}
-                      onClick={() => onCourseClick(block.course)}
-                    />
+                    <div key={block.course.crn}>
+                      {idx !== 0 && (
+                        <WalkingDistance
+                          top={blocks[idx - 1].block.top + blocks[idx - 1].block.height}
+                          src={blocks[idx - 1].block.course}
+                          dest={block.course}
+                          availableDuration={block.startTime - blocks[idx - 1].block.endTime}
+                        />
+                      )}
+                      <CalendarBlock
+                        course={block.course}
+                        colorIndex={block.colorIndex}
+                        style={{
+                          top: block.top,
+                          height: block.height,
+                          left: `${leftPct}%`,
+                          width: `${widthPct}%`,
+                          position: "absolute"
+                        }}
+                        onClick={() => onCourseClick(block.course)}
+                      />
+                    </div>
                   );
                 })}
               </div>

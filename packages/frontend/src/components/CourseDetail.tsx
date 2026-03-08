@@ -35,7 +35,7 @@ export default function CourseDetail({ course, onClose }: Props) {
           </div>
           <button
             onClick={onClose}
-            className="p-1 hover:bg-gray-100 dark:hover:bg-zinc-700 rounded-lg transition-colors"
+            className="p-1 hover:bg-zinc-100 dark:hover:bg-zinc-700 rounded-lg transition-colors"
           >
             <X className="w-5 h-5 text-gray-400" />
           </button>
@@ -69,7 +69,7 @@ export default function CourseDetail({ course, onClose }: Props) {
                 </div>
               )}
               {!ratingLoading && rating && (
-                <div className="bg-gray-50 dark:bg-zinc-700 rounded-lg p-3 space-y-2">
+                <div className="bg-zinc-50 dark:bg-zinc-700 rounded-lg p-3 space-y-2">
                   <div className="flex items-center gap-3">
                     <div className="flex items-center gap-1">
                       <Star className="w-4 h-4 text-cu-gold fill-cu-gold" />
