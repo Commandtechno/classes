@@ -1,0 +1,882 @@
+{
+  "student": {
+    "name": "Asher, Akhil"
+  },
+  "program": {
+    "prepared_date": "03/07/26 - 01:36 PM 111780711",
+    "catalog_year": "FA2025",
+    "requested_program": "ENBA---CSEN",
+    "degree_name": "Bachelor of Arts in Computer Science",
+    "college": "College of Engineering and Applied Science",
+    "program_codes": [
+      "CUBLD",
+      "ENGRU",
+      "CSEN-BA"
+    ],
+    "admission_term": "FA2025"
+  },
+  "overall": {
+    "all_requirements_met": false,
+    "earned_hours": 22.0,
+    "in_progress_hours": 18.0
+  },
+  "requirements": [
+    {
+      "name": "University of Colorado Boulder Graduation Policy",
+      "status": null,
+      "min_grade": null,
+      "sub_requirements": [],
+      "courses": [],
+      "notes": []
+    },
+    {
+      "name": "Overall Credit Hour Requirement",
+      "status": null,
+      "min_grade": null,
+      "sub_requirements": [
+        {
+          "description": "SELECT FROM: ENES1010 ARSC1080,1150 CLAS1020 EBIO1940",
+          "status": null,
+          "courses": [],
+          "hours_needed": null,
+          "hours_in_progress": null
+        },
+        {
+          "description": "SELECT FROM: ENES3100 ENLP3100 ARSC3100,",
+          "status": null,
+          "courses": [
+            {
+              "term": "FA25",
+              "semester": "FA",
+              "year": 2025,
+              "course_code": "PHIL1100",
+              "credits": 3.0,
+              "grade": "A",
+              "title": "Ethics",
+              "in_progress": false,
+              "transfer": false
+            },
+            {
+              "term": "SP26",
+              "semester": "SP",
+              "year": 2026,
+              "course_code": "PHIL1440",
+              "credits": 3.0,
+              "grade": null,
+              "title": "Critical Thinking",
+              "in_progress": true,
+              "transfer": false
+            },
+            {
+              "term": "FA25",
+              "semester": "FA",
+              "year": 2025,
+              "course_code": "ATOC1060",
+              "credits": 3.0,
+              "grade": "A",
+              "title": "Our Changing Environment",
+              "in_progress": false,
+              "transfer": false
+            },
+            {
+              "term": "SP26",
+              "semester": "SP",
+              "year": 2026,
+              "course_code": "PSYC1001",
+              "credits": 3.0,
+              "grade": null,
+              "title": "General Psychology",
+              "in_progress": true,
+              "transfer": false
+            }
+          ],
+          "hours_needed": null,
+          "hours_in_progress": 3.0,
+          "hours_added": 3.0
+        }
+      ],
+      "courses": [
+        {
+          "term": "FA25",
+          "semester": "FA",
+          "year": 2025,
+          "course_code": "ATOC1060",
+          "credits": 3.0,
+          "grade": "A",
+          "title": "Our Changing Environment",
+          "in_progress": false,
+          "transfer": false
+        },
+        {
+          "term": "FA25",
+          "semester": "FA",
+          "year": 2025,
+          "course_code": "COEN1500",
+          "credits": 1.0,
+          "grade": "A",
+          "title": "CEAS FYS",
+          "in_progress": false,
+          "transfer": false
+        },
+        {
+          "term": "FA22",
+          "semester": "FA",
+          "year": 2022,
+          "course_code": "CSCI1200",
+          "credits": 3.0,
+          "grade": "TA",
+          "title": "Intro Computational Thinking",
+          "in_progress": false,
+          "transfer": true,
+          "transfer_equivalent": "CIS130"
+        },
+        {
+          "term": "FA25",
+          "semester": "FA",
+          "year": 2025,
+          "course_code": "CSCI1300",
+          "credits": 4.0,
+          "grade": "A",
+          "title": "CS 1: Starting Computing",
+          "in_progress": false,
+          "transfer": false
+        },
+        {
+          "term": "SP26",
+          "semester": "SP",
+          "year": 2026,
+          "course_code": "CSCI2270",
+          "credits": 4.0,
+          "grade": null,
+          "title": "Comp Sci 2: Data Struct",
+          "in_progress": true,
+          "transfer": false
+        },
+        {
+          "term": "SP26",
+          "semester": "SP",
+          "year": 2026,
+          "course_code": "CSCI2824",
+          "credits": 3.0,
+          "grade": null,
+          "title": "Discrete Structures",
+          "in_progress": true,
+          "transfer": false
+        },
+        {
+          "term": "FA25",
+          "semester": "FA",
+          "year": 2025,
+          "course_code": "MATH1300",
+          "credits": 5.0,
+          "grade": "A-",
+          "title": "Calculus 1",
+          "in_progress": false,
+          "transfer": false
+        },
+        {
+          "term": "SP26",
+          "semester": "SP",
+          "year": 2026,
+          "course_code": "MATH2300",
+          "credits": 5.0,
+          "grade": null,
+          "title": "Calculus 2",
+          "in_progress": true,
+          "transfer": false
+        },
+        {
+          "term": "FA22",
+          "semester": "FA",
+          "year": 2022,
+          "course_code": "MATH2510",
+          "credits": 3.0,
+          "grade": "TA",
+          "title": "Introduction/Statistics",
+          "in_progress": false,
+          "transfer": true,
+          "transfer_equivalent": "MAT212"
+        },
+        {
+          "term": "FA25",
+          "semester": "FA",
+          "year": 2025,
+          "course_code": "PHIL1100",
+          "credits": 3.0,
+          "grade": "A",
+          "title": "Ethics",
+          "in_progress": false,
+          "transfer": false
+        },
+        {
+          "term": "SP26",
+          "semester": "SP",
+          "year": 2026,
+          "course_code": "PHIL1440",
+          "credits": 3.0,
+          "grade": null,
+          "title": "Critical Thinking",
+          "in_progress": true,
+          "transfer": false
+        },
+        {
+          "term": "SP26",
+          "semester": "SP",
+          "year": 2026,
+          "course_code": "PSYC1001",
+          "credits": 3.0,
+          "grade": null,
+          "title": "General Psychology",
+          "in_progress": true,
+          "transfer": false
+        },
+        {
+          "term": "SP26",
+          "semester": "SP",
+          "year": 2026,
+          "course_code": "PSYC1001",
+          "credits": 3.0,
+          "grade": null,
+          "title": "General Psychology",
+          "in_progress": true,
+          "transfer": false
+        },
+        {
+          "term": "SP26",
+          "semester": "SP",
+          "year": 2026,
+          "course_code": "PHIL1440",
+          "credits": 3.0,
+          "grade": null,
+          "title": "Critical Thinking",
+          "in_progress": true,
+          "transfer": false
+        },
+        {
+          "term": "SP26",
+          "semester": "SP",
+          "year": 2026,
+          "course_code": "MATH2300",
+          "credits": 5.0,
+          "grade": null,
+          "title": "Calculus 2",
+          "in_progress": true,
+          "transfer": false
+        },
+        {
+          "term": "SP26",
+          "semester": "SP",
+          "year": 2026,
+          "course_code": "CSCI2824",
+          "credits": 3.0,
+          "grade": null,
+          "title": "Discrete Structures",
+          "in_progress": true,
+          "transfer": false
+        },
+        {
+          "term": "SP26",
+          "semester": "SP",
+          "year": 2026,
+          "course_code": "CSCI2270",
+          "credits": 4.0,
+          "grade": null,
+          "title": "Comp Sci 2: Data Struct",
+          "in_progress": true,
+          "transfer": false
+        },
+        {
+          "term": "FA25",
+          "semester": "FA",
+          "year": 2025,
+          "course_code": "PHIL1100",
+          "credits": 3.0,
+          "grade": "A",
+          "title": "Ethics",
+          "in_progress": false,
+          "transfer": false
+        },
+        {
+          "term": "FA25",
+          "semester": "FA",
+          "year": 2025,
+          "course_code": "MATH1300",
+          "credits": 5.0,
+          "grade": "A-",
+          "title": "Calculus 1",
+          "in_progress": false,
+          "transfer": false
+        },
+        {
+          "term": "FA25",
+          "semester": "FA",
+          "year": 2025,
+          "course_code": "CSCI1300",
+          "credits": 4.0,
+          "grade": "A",
+          "title": "CS 1: Starting Computing",
+          "in_progress": false,
+          "transfer": false
+        },
+        {
+          "term": "FA25",
+          "semester": "FA",
+          "year": 2025,
+          "course_code": "COEN1500",
+          "credits": 1.0,
+          "grade": "A",
+          "title": "CEAS FYS",
+          "in_progress": false,
+          "transfer": false
+        },
+        {
+          "term": "FA25",
+          "semester": "FA",
+          "year": 2025,
+          "course_code": "ATOC1060",
+          "credits": 3.0,
+          "grade": "A",
+          "title": "Our Changing Environment",
+          "in_progress": false,
+          "transfer": false
+        },
+        {
+          "term": "SP26",
+          "semester": "SP",
+          "year": 2026,
+          "course_code": "CSCI2270",
+          "credits": 4.0,
+          "grade": null,
+          "title": "Comp Sci 2: Data Struct",
+          "in_progress": true,
+          "transfer": false
+        },
+        {
+          "term": "SP26",
+          "semester": "SP",
+          "year": 2026,
+          "course_code": "CSCI2824",
+          "credits": 3.0,
+          "grade": null,
+          "title": "Discrete Structures",
+          "in_progress": true,
+          "transfer": false
+        },
+        {
+          "term": "SP26",
+          "semester": "SP",
+          "year": 2026,
+          "course_code": "MATH2300",
+          "credits": 5.0,
+          "grade": null,
+          "title": "Calculus 2",
+          "in_progress": true,
+          "transfer": false
+        },
+        {
+          "term": "SP26",
+          "semester": "SP",
+          "year": 2026,
+          "course_code": "PHIL1440",
+          "credits": 3.0,
+          "grade": null,
+          "title": "Critical Thinking",
+          "in_progress": true,
+          "transfer": false
+        },
+        {
+          "term": "SP26",
+          "semester": "SP",
+          "year": 2026,
+          "course_code": "PSYC1001",
+          "credits": 3.0,
+          "grade": null,
+          "title": "General Psychology",
+          "in_progress": true,
+          "transfer": false
+        }
+      ],
+      "notes": [],
+      "hours_added": 22.0,
+      "hours_in_progress": 18.0,
+      "gpa": 3.906
+    },
+    {
+      "name": "General Education Diversity Requirement",
+      "status": null,
+      "min_grade": "a D-",
+      "sub_requirements": [
+        {
+          "description": "Complete CSCI1300:",
+          "status": null,
+          "courses": [
+            {
+              "term": "FA25",
+              "semester": "FA",
+              "year": 2025,
+              "course_code": "CSCI1300",
+              "credits": 4.0,
+              "grade": "A",
+              "title": "CS 1: Starting Computing",
+              "in_progress": false,
+              "transfer": false
+            }
+          ],
+          "hours_needed": null,
+          "hours_in_progress": null
+        },
+        {
+          "description": "Complete CSCI2270:",
+          "status": null,
+          "courses": [
+            {
+              "term": "SP26",
+              "semester": "SP",
+              "year": 2026,
+              "course_code": "CSCI2270",
+              "credits": 4.0,
+              "grade": null,
+              "title": "Comp Sci 2: Data Struct",
+              "in_progress": true,
+              "transfer": false
+            }
+          ],
+          "hours_needed": null,
+          "hours_in_progress": null
+        },
+        {
+          "description": "Complete CSCI2400:",
+          "status": null,
+          "courses": [],
+          "hours_needed": null,
+          "hours_in_progress": null
+        },
+        {
+          "description": "SELECT FROM: CSCI2400",
+          "status": null,
+          "courses": [],
+          "hours_needed": null,
+          "hours_in_progress": null
+        },
+        {
+          "description": "Complete CSCI3104:",
+          "status": null,
+          "courses": [],
+          "hours_needed": null,
+          "hours_in_progress": null
+        },
+        {
+          "description": "SELECT FROM: CSCI3104",
+          "status": null,
+          "courses": [],
+          "hours_needed": null,
+          "hours_in_progress": null
+        },
+        {
+          "description": "Complete CSCI3155:",
+          "status": null,
+          "courses": [],
+          "hours_needed": null,
+          "hours_in_progress": null
+        },
+        {
+          "description": "SELECT FROM: CSCI3155",
+          "status": null,
+          "courses": [],
+          "hours_needed": null,
+          "hours_in_progress": null
+        },
+        {
+          "description": "Complete CSCI3308:",
+          "status": null,
+          "courses": [],
+          "hours_needed": null,
+          "hours_in_progress": null
+        },
+        {
+          "description": "SELECT FROM: CSCI3308",
+          "status": null,
+          "courses": [],
+          "hours_needed": null,
+          "hours_in_progress": null
+        },
+        {
+          "description": "Complete four courses from the CSCI core list:",
+          "status": null,
+          "courses": [],
+          "hours_needed": null,
+          "hours_in_progress": null
+        },
+        {
+          "description": "SELECT FROM: CSCI3002,3202,3287,3302,3403,3434,3656 OR",
+          "status": null,
+          "courses": [],
+          "hours_needed": null,
+          "hours_in_progress": null
+        },
+        {
+          "description": "Complete a Calculus I course:",
+          "status": null,
+          "courses": [
+            {
+              "term": "FA25",
+              "semester": "FA",
+              "year": 2025,
+              "course_code": "MATH1300",
+              "credits": 5.0,
+              "grade": "A-",
+              "title": "Calculus 1",
+              "in_progress": false,
+              "transfer": false
+            }
+          ],
+          "hours_needed": null,
+          "hours_in_progress": null
+        },
+        {
+          "description": "Complete a Calculus II course:",
+          "status": null,
+          "courses": [
+            {
+              "term": "SP26",
+              "semester": "SP",
+              "year": 2026,
+              "course_code": "MATH2300",
+              "credits": 5.0,
+              "grade": null,
+              "title": "Calculus 2",
+              "in_progress": true,
+              "transfer": false
+            }
+          ],
+          "hours_needed": null,
+          "hours_in_progress": null
+        },
+        {
+          "description": "Complete one of the following Discrete Mathematics",
+          "status": null,
+          "courses": [
+            {
+              "term": "SP26",
+              "semester": "SP",
+              "year": 2026,
+              "course_code": "CSCI2824",
+              "credits": 3.0,
+              "grade": null,
+              "title": "Discrete Structures",
+              "in_progress": true,
+              "transfer": false
+            }
+          ],
+          "hours_needed": null,
+          "hours_in_progress": null
+        },
+        {
+          "description": "Complete one of the following Linear Algebra or",
+          "status": null,
+          "courses": [],
+          "hours_needed": null,
+          "hours_in_progress": null
+        },
+        {
+          "description": "SELECT FROM: CSCI2820 MATH2130,2135 APPM3310 CSCI3022",
+          "status": null,
+          "courses": [],
+          "hours_needed": null,
+          "hours_in_progress": null
+        },
+        {
+          "description": "Complete one of the following Logic courses:",
+          "status": null,
+          "courses": [
+            {
+              "term": "SP26",
+              "semester": "SP",
+              "year": 2026,
+              "course_code": "PHIL1440",
+              "credits": 3.0,
+              "grade": null,
+              "title": "Critical Thinking",
+              "in_progress": true,
+              "transfer": false
+            }
+          ],
+          "hours_needed": null,
+          "hours_in_progress": null
+        },
+        {
+          "description": "Complete one of the following Ethics courses:",
+          "status": null,
+          "courses": [
+            {
+              "term": "FA25",
+              "semester": "FA",
+              "year": 2025,
+              "course_code": "PHIL1100",
+              "credits": 3.0,
+              "grade": "A",
+              "title": "Ethics",
+              "in_progress": false,
+              "transfer": false
+            }
+          ],
+          "hours_needed": null,
+          "hours_in_progress": null
+        },
+        {
+          "description": "Complete at least 45 hours of approved CSCI courses.",
+          "status": null,
+          "courses": [
+            {
+              "term": "FA25",
+              "semester": "FA",
+              "year": 2025,
+              "course_code": "CSCI1300",
+              "credits": 4.0,
+              "grade": "A",
+              "title": "CS 1: Starting Computing",
+              "in_progress": false,
+              "transfer": false
+            },
+            {
+              "term": "SP26",
+              "semester": "SP",
+              "year": 2026,
+              "course_code": "CSCI2270",
+              "credits": 4.0,
+              "grade": null,
+              "title": "Comp Sci 2: Data Struct",
+              "in_progress": true,
+              "transfer": false
+            },
+            {
+              "term": "FA25",
+              "semester": "FA",
+              "year": 2025,
+              "course_code": "CSCI1300",
+              "credits": 4.0,
+              "grade": "A",
+              "title": "CS 1: Starting Computing",
+              "in_progress": false,
+              "transfer": false
+            },
+            {
+              "term": "SP26",
+              "semester": "SP",
+              "year": 2026,
+              "course_code": "CSCI2270",
+              "credits": 4.0,
+              "grade": null,
+              "title": "Comp Sci 2: Data Struct",
+              "in_progress": true,
+              "transfer": false
+            }
+          ],
+          "hours_needed": 37.0,
+          "hours_in_progress": 4.0,
+          "hours_added": 4.0,
+          "gpa": 4.0
+        },
+        {
+          "description": "Complete enough electives to bring the total credit hours",
+          "status": null,
+          "courses": [
+            {
+              "term": "FA22",
+              "semester": "FA",
+              "year": 2022,
+              "course_code": "CSCI1200",
+              "credits": 3.0,
+              "grade": "TA",
+              "title": "Intro Computational Thinking",
+              "in_progress": false,
+              "transfer": true,
+              "transfer_equivalent": "CIS130"
+            }
+          ],
+          "hours_needed": null,
+          "hours_in_progress": null
+        }
+      ],
+      "courses": [],
+      "notes": []
+    }
+  ],
+  "coursework_history": {
+    "terms": {
+      "FA25": [
+        {
+          "term": "FA25",
+          "semester": "FA",
+          "year": 2025,
+          "course_code": "COEN1500",
+          "credits": 1.0,
+          "grade": "A",
+          "title": "CEAS FYS",
+          "in_progress": false,
+          "transfer": false
+        },
+        {
+          "term": "FA25",
+          "semester": "FA",
+          "year": 2025,
+          "course_code": "ATOC1060",
+          "credits": 3.0,
+          "grade": "A",
+          "title": "Our Changing Environment",
+          "in_progress": false,
+          "transfer": false
+        },
+        {
+          "term": "FA25",
+          "semester": "FA",
+          "year": 2025,
+          "course_code": "COEN1500",
+          "credits": 1.0,
+          "grade": "A",
+          "title": "CEAS FYS",
+          "in_progress": false,
+          "transfer": false
+        },
+        {
+          "term": "FA25",
+          "semester": "FA",
+          "year": 2025,
+          "course_code": "CSCI1300",
+          "credits": 4.0,
+          "grade": "A",
+          "title": "CS 1: Starting Computing",
+          "in_progress": false,
+          "transfer": false
+        },
+        {
+          "term": "FA25",
+          "semester": "FA",
+          "year": 2025,
+          "course_code": "MATH1300",
+          "credits": 5.0,
+          "grade": "A-",
+          "title": "Calculus 1",
+          "in_progress": false,
+          "transfer": false
+        },
+        {
+          "term": "FA25",
+          "semester": "FA",
+          "year": 2025,
+          "course_code": "PHIL1100",
+          "credits": 3.0,
+          "grade": "A",
+          "title": "Ethics",
+          "in_progress": false,
+          "transfer": false
+        }
+      ],
+      "SP26": [
+        {
+          "term": "SP26",
+          "semester": "SP",
+          "year": 2026,
+          "course_code": "CSCI2270",
+          "credits": 4.0,
+          "grade": null,
+          "title": "Comp Sci 2: Data Struct",
+          "in_progress": true,
+          "transfer": false
+        },
+        {
+          "term": "SP26",
+          "semester": "SP",
+          "year": 2026,
+          "course_code": "CSCI2824",
+          "credits": 3.0,
+          "grade": null,
+          "title": "Discrete Structures",
+          "in_progress": true,
+          "transfer": false
+        },
+        {
+          "term": "SP26",
+          "semester": "SP",
+          "year": 2026,
+          "course_code": "MATH2300",
+          "credits": 5.0,
+          "grade": null,
+          "title": "Calculus 2",
+          "in_progress": true,
+          "transfer": false
+        },
+        {
+          "term": "SP26",
+          "semester": "SP",
+          "year": 2026,
+          "course_code": "PHIL1440",
+          "credits": 3.0,
+          "grade": null,
+          "title": "Critical Thinking",
+          "in_progress": true,
+          "transfer": false
+        },
+        {
+          "term": "SP26",
+          "semester": "SP",
+          "year": 2026,
+          "course_code": "PSYC1001",
+          "credits": 3.0,
+          "grade": null,
+          "title": "General Psychology",
+          "in_progress": true,
+          "transfer": false
+        }
+      ]
+    },
+    "transfer_credits": [
+      {
+        "term": "FA22",
+        "semester": "FA",
+        "year": 2022,
+        "course_code": "MATH2510",
+        "credits": 3.0,
+        "grade": "TA",
+        "title": "Introduction/Statistics",
+        "in_progress": false,
+        "transfer": true,
+        "transfer_equivalent": "MAT212"
+      },
+      {
+        "term": "FA22",
+        "semester": "FA",
+        "year": 2022,
+        "course_code": "CSCI1200",
+        "credits": 3.0,
+        "grade": "TA",
+        "title": "Intro Computational Thinking",
+        "in_progress": false,
+        "transfer": true,
+        "transfer_equivalent": "CIS130"
+      },
+      {
+        "term": "FA22",
+        "semester": "FA",
+        "year": 2022,
+        "course_code": "MATH2510",
+        "credits": 3.0,
+        "grade": "TA",
+        "title": "Introduction/Statistics",
+        "in_progress": false,
+        "transfer": true,
+        "transfer_equivalent": "MAT212"
+      }
+    ]
+  },
+  "raw_notes": [],
+  "summary": {
+    "total_courses_completed": 9,
+    "total_courses_in_progress": 5,
+    "total_credits_completed": 26.0,
+    "total_credits_in_progress": 18.0,
+    "requirements_total": 3,
+    "requirements_met": 0,
+    "requirements_not_met": 0
+  }
+}
