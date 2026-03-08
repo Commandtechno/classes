@@ -42,7 +42,7 @@ export default function LeftPanel({
   };
 
   return (
-    <div className="h-full flex flex-col bg-gray-50/70 dark:bg-zinc-800/70 border-r border-gray-200 dark:border-zinc-700 overflow-y-auto">
+    <div className="h-full flex flex-col bg-zinc-50/70 dark:bg-zinc-800/70 border-r border-gray-200 dark:border-zinc-700 overflow-y-auto">
       <div className="p-3">
         <ScheduleList
           courses={scheduledCourses}
