@@ -67,6 +67,7 @@ export default function App() {
             onRemoveCourse={scheduler.removeCourse}
             onReplaceSection={scheduler.replaceSection}
             onRemoveFromWishlist={scheduler.removeFromWishlist}
+            onAddToWishlist={scheduler.addToWishlist}
           />
         </div>
 
