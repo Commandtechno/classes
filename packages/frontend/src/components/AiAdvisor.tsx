@@ -17,7 +17,7 @@ interface Props {
 type State =
   | { type: "upload" }
   | { type: "loading"; message: string }
-  | { type: "results"; recommendations: Array<{ priority: number; course: Course }> }
+  | { type: "results"; recommendations: Array<{ priority: number; courses: Course[] }> }
   | { type: "error"; message: string };
 
 export default function AiAdvisor({
@@ -90,14 +90,17 @@ export default function AiAdvisor({
     }
   }, [conflictState, onAddCourse]);
 
-  const createCourseGroup = (course: Course): CourseGroup => ({
-    code: course.code,
-    title: course.title,
-    department: course.department,
-    courseNumber: course.courseNumber,
-    credits: course.credits,
-    sections: [course]
-  });
+  const createCourseGroup = (courses: Course[]): CourseGroup => {
+    const first = courses[0];
+    return {
+      code: first.code,
+      title: first.title,
+      department: first.department,
+      courseNumber: first.courseNumber,
+      credits: first.credits,
+      sections: courses,
+    };
+  };
 
   return (
     <div>
